@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>EduCareerHub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>EduCareerHub</h1>
+    <nav>
+      <ul>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#employment">Employment</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#freelancing">Freelancing</a></li>
+        <li><a href="#tutoring">Online Tutor</a></li>
+        <li><a href="#opportunities">Opportunities</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="education">
+      <h2>Education</h2>
+      <p>Explore online courses, colleges, and study resources.</p>
+      <a href="education.html" class="btn">Learn More</a>
+
+    </section>
+
+    <section id="employment">
+      <h2>Employment</h2>
+      <p>Find job listings, resume tips, and career prep tools.</p>
+      <a href="employment.html" class="btn">Learn More</a>
+
+    </section>
+
+    <section id="skills">
+      <h2>Skill Development</h2>
+      <p>Learn soft skills, coding, communication, and more.</p>
+       <a href="skill.html" class="btn">Learn More</a>
+
+    </section>
+
+    <section id="freelancing">
+      <h2>Freelancing</h2>
+      <p>Get started with freelance work, portfolios, and platforms.</p>
+       <a href="freelance.html" class="btn">Learn More</a>
+    </section>
+
+    <section id="tutoring">
+      <h2>Online Tutoring</h2>
+      <p>Become an online tutor or find one for personalized help.</p>
+      <a href="online.html" class="btn">Learn More</a>
+
+    </section>
+
+    <section id="opportunities">
+      <h2>Opportunities</h2>
+      <p>Discover hackathons, scholarships, internships, and more.</p>
+       <a href="opportunity.html" class="btn">Learn More</a>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <!-- Modals -->
+    <div id="eduModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('eduModal')">&times;</span>
+        <h3>Education</h3>
+        <p>Courses from top platforms like Coursera, edX, NPTEL and others. Roadmaps for college students and NEET/UPSC/Tech prep.</p>
+      </div>
+    </div>
+
+    <div id="empModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('empModal')">&times;</span>
+        <h3>Employment</h3>
+        <p>Job boards, resume builder, company research, job alerts, and interview preparation resources.</p>
+      </div>
+    </div>
+
+    <div id="skillModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('skillModal')">&times;</span>
+        <h3>Skills</h3>
+        <p>Learn public speaking, leadership, Excel, JavaScript, DSA, and more.</p>
+      </div>
+    </div>
+
+    <div id="freeModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('freeModal')">&times;</span>
+        <h3>Freelancing</h3>
+        <p>Get started on Fiverr, Upwork, Freelancer. Create portfolios, proposals, and manage payments.</p>
+      </div>
+    </div>
+
+    <div id="tutorModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('tutorModal')">&times;</span>
+        <h3>Online Tutoring</h3>
+        <p>Become a tutor on Chegg, Vedantu, Unacademy. Or hire tutors based on your needs.</p>
+      </div>
+    </div>
+
+    <div id="oppModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('oppModal')">&times;</span>
+        <h3>Opportunities</h3>
+        <p>Participate in contests, get internship and scholarship alerts, join programs like GDSC, MLSA, etc.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 EduCareerHub. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
